@@ -1,7 +1,7 @@
 function gerarSumario() {
 	const titulos = document.querySelectorAll('h2');
 	const sumarioContainer = document.getElementById('sumario');
-	const listaSumario = document.createElement('ol');
+	const listaSumario = document.createElement('ul');
 
 	titulos.forEach((titulo, index) => {
 		const textoTitulo = titulo.textContent;
