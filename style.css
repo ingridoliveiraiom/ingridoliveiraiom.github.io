@@ -14,22 +14,28 @@ body {
     padding: 3rem 1.5rem;
 }
 
-        ol {
-            list-style: none; /* Remove a numeração padrão do navegador */
-            padding-left: 0;
-        }
-        ol li {
-            counter-increment: item-counter; /* Incrementa o contador CSS */
-            margin-bottom: 5px;
-            padding-left: 25px; /* Espaço para o número */
-            position: relative;
-        }
-        ol li::before {
-            content: counter(item-counter) "."; /* Exibe o contador */
-            left: 0;
-            font-weight: bold;
-            color: #007bff;
-        }
+ol {
+    list-style: none;
+    /* Remove a numeração padrão do navegador */
+    padding-left: 0;
+}
+
+ol li {
+    counter-increment: item-counter;
+    /* Incrementa o contador CSS */
+    margin-bottom: 5px;
+    padding-left: 25px;
+    /* Espaço para o número */
+    position: relative;
+}
+
+ol li::before {
+    content: counter(item-counter) ".";
+    /* Exibe o contador */
+    left: 0;
+    font-weight: bold;
+    color: #007bff;
+}
 
 ol ol li {
     list-style-type: lower-alpha;
@@ -278,14 +284,18 @@ header p {
     }
 
     h1,
+    h2,
+    h3,
     h6 {
-        font-size: 1.6rem;
-        padding-left: 1.2rem;
+        font-size: 1.2rem;
+        padding-left: 0.5rem;
+        margin-bottom: 0.7rem;
     }
 
-    h2 {
-        font-size: 2rem;
-        padding-left: 0.5rem;
+    .aula {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
     }
 
     .refletir,
@@ -295,28 +305,31 @@ header p {
     .objetivos,
     .fontes,
     .problematizacao {
-        font-size: 1.2rem;
-        padding: 1rem 1rem 1rem 3rem;
-        margin: 1.2rem 0 1rem 0;
+        font-size: 1rem;
+        padding: 0.7rem 0.7rem 0.7rem 2.2rem;
+        margin: 1rem 0 0.7rem 0;
+        border-radius: 12px;
     }
 
     .refletir::before,
-    .sugestao::before .avaliacao::before,
+    .sugestao::before,
+    .avaliacao::before,
     .atividades::before,
     .objetivos::before,
     .fontes::before,
     .problematizacao::before {
-        left: 0.5rem;
-        top: 0.7rem;
-        font-size: 1.5rem;
+        left: 0.3rem;
+        top: 0.5rem;
+        font-size: 1.2rem;
     }
 
     .quote {
-        font-size: 1rem;
-        margin: 1rem 0.5rem;
-        padding-left: 0.5rem;
+        font-size: 0.95rem;
+        margin: 0.7rem 0.2rem;
+        padding-left: 0.3rem;
     }
 
+    .poesia,
     .letra-samba {
         font-size: 1rem;
         padding: 0.5rem 1rem;
@@ -324,15 +337,55 @@ header p {
         column-gap: 0;
     }
 
-    #sumario li {
-        padding-left: 1.5em;
-        font-size: 1rem;
+    ul,
+    ol {
+        padding-left: 1em;
+        font-size: 0.95rem;
     }
 
+    ol li,
+    ul li {
+        padding-left: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    #sumario li {
+        padding-left: 1em;
+        font-size: 0.95rem;
+        margin-bottom: 0.5em;
+    }
+
+    .midia-card,
     .video-card {
         width: 100%;
         max-width: 340px;
         margin: 10px auto;
         display: block;
+    }
+
+    .midia-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .midia-card .video-info h4 {
+        font-size: 0.95rem;
+    }
+
+    header {
+        padding: 1rem 0.5rem;
+        font-size: 1rem;
+        border-radius: 0 0 12px 12px;
+    }
+
+    header h1,
+    header h2 {
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    header p {
+        font-size: 0.95rem;
+        margin-top: 0.3rem;
     }
 }
