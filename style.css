@@ -14,6 +14,23 @@ body {
     padding: 3rem 1.5rem;
 }
 
+        ol {
+            list-style: none; /* Remove a numeração padrão do navegador */
+            padding-left: 0;
+        }
+        ol li {
+            counter-increment: item-counter; /* Incrementa o contador CSS */
+            margin-bottom: 5px;
+            padding-left: 25px; /* Espaço para o número */
+            position: relative;
+        }
+        ol li::before {
+            content: counter(item-counter) "."; /* Exibe o contador */
+            left: 0;
+            font-weight: bold;
+            color: #007bff;
+        }
+
 ol ol li {
     list-style-type: lower-alpha;
 }

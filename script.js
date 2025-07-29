@@ -19,3 +19,41 @@ function gerarSumario() {
 	sumarioContainer.appendChild(listaSumario);
 }
 gerarSumario();
+
+function setContinuosCounter() {
+	document.addEventListener('DOMContentLoaded', () => {
+		let globalCounter = 1;
+		// Inicializa o contador global
+
+		// Seleciona todas as listas com a classe 'continuous-counter'
+		const lists = document.querySelectorAll('ol');
+
+		lists.forEach(list => {
+			const listItems = list.querySelectorAll('li');
+			listItems.forEach(item => { // Adiciona um atributo de dados para armazenar o número
+				item.dataset.counter = globalCounter;
+				globalCounter++; // Incrementa para o próximo item
+			});
+		});
+
+		// Opcional: Se quiser que o número apareça dinamicamente no JS sem depender 100% do CSS counter
+		// Você pode modificar o conteúdo do item ou adicionar um span
+		// No entanto, o método CSS 'counter-increment' e 'counter()' é mais elegante para exibir.
+		// O JavaScript aqui garante que o 'counter-increment' resete corretamente
+		// e mantém a lógica de contagem global.
+
+		// Resetar e aplicar o counter-reset para cada lista usando o JS para simular a continuidade
+		// Isso é mais robusto para garantir a continuidade em diferentes navegadores e cenários.
+		let currentCount = 0;
+		lists.forEach((list, index) => {
+			// Define o valor do contador CSS para a próxima lista
+			// Isso reinicia o contador para o valor desejado para a próxima lista
+			list.style.counterReset = `item-counter ${currentCount}`;
+
+			// Atualiza o contador global com base no número de itens desta lista
+			currentCount += list.querySelectorAll('li').length;
+		});
+	});
+}
+
+setContinuosCounter();
