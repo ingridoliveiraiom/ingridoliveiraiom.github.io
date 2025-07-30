@@ -355,6 +355,8 @@ header p {
         margin-bottom: 0.5em;
     }
 
+
+
     .midia-card,
     .video-card {
         width: 100%;
@@ -389,3 +391,7 @@ header p {
         margin-top: 0.3rem;
     }
 }
+
+    figcaption {
+        text-align: center;
+    }
