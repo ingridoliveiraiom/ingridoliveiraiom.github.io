@@ -32,6 +32,9 @@ body {
     padding: 3rem 1.5rem;
 }
 
+// adicione uma imagem de background ao header
+
+
 ol {
     list-style: none;
     /* Remove a numeração padrão do navegador */
@@ -271,13 +274,20 @@ ul {
 }
 
 header {
-    background: linear-gradient(90deg, #f5ecd7 0%, #eac67a 50%, #7a9e9f 100%);
+    /* Combina o gradiente existente com uma imagem de fundo sutil para dar textura de papel antigo */
+    background-image: linear-gradient(90deg, rgba(245, 236, 215, 0.92) 0%, rgba(234, 198, 122, 0.92) 50%, rgba(122, 158, 159, 0.88) 100%), url('./assets/capa-1.png');
+    
+    background-size: auto; /* 'auto' para a textura repetir corretamente */
+    background-position: center;
+    position: relative; /* Boa prática para posicionamento de elementos filhos */
+
     border-bottom: 6px solid #eac67a;
     color: #3b2f2f;
     padding: 2rem 1.5rem;
     border-radius: 0 0 24px 24px;
     box-shadow: 0 4px 16px rgba(59, 47, 47, 0.10);
     font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
     text-align: center;
     letter-spacing: 0.05em;
 }
