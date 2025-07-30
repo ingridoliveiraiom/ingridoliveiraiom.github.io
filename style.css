@@ -70,13 +70,21 @@ h3 {
 }
 
 .aula {
-    font-family: 'Nunito', sans-serif;
+    /* Estilo de destaque para os títulos das aulas */
+    background-color: #4a3f35; /* Fundo escuro e sóbrio */
+    color: #f5ecd7; /* Texto claro para contraste, mantendo o tom vintage */
+    font-family: 'Quicksand', sans-serif;
     font-size: 2.8rem;
-    color: #2b2112;
-    text-align: center;
-    margin-bottom: 2rem;
-    letter-spacing: 0.05em;
     font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding: 1.5rem 1rem;
+    margin: 4rem auto 3rem auto;
+    border-radius: 12px;
+    border-bottom: 5px solid #eac67a; /* Destaque dourado, conectado ao header */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    max-width: 90%;
 }
 
 .refletir,
@@ -275,7 +283,7 @@ ul {
 
 header {
     /* Combina o gradiente existente com uma imagem de fundo sutil para dar textura de papel antigo */
-    background-image: linear-gradient(90deg, rgba(245, 236, 215, 0.92) 0%, rgba(234, 198, 122, 0.92) 50%, rgba(122, 158, 159, 0.88) 100%), url('./assets/capa-1.png');
+    background-image: linear-gradient(90deg, rgba(245, 236, 215, 0.92) 0%, rgba(234, 198, 122, 0.92) 50%, rgba(122, 158, 159, 0.88) 100%), url('/assets/capa-1.png');
     
     background-size: auto; /* 'auto' para a textura repetir corretamente */
     background-position: center;
@@ -320,9 +328,12 @@ header p {
     }
 
     .aula {
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
-        padding: 0.5rem;
+        font-size: 1.6rem;
+        padding: 1rem 0.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+        max-width: 100%;
+        border-bottom-width: 4px;
     }
 
     .refletir,
@@ -380,6 +391,8 @@ header p {
         font-size: 0.95rem;
         margin-bottom: 0.5em;
     }
+
+    
 
 
 
