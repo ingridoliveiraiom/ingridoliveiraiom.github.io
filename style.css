@@ -395,3 +395,34 @@ header p {
     figcaption {
         text-align: center;
     }
+
+    .top-panel {
+    position: fixed; /* Fixa o painel no topo da tela */
+    top: 0;
+    right: -5px;
+    width: auto;
+    color: white;
+    padding: 1px;
+    text-align: right; /* Alinha o botão à direita */
+    box-shadow: 0 2px 5px #664e34; /* Sombra sutil */
+    border-radius: 5px;
+    z-index: 1000; /* Garante que o painel fique acima de outros elementos */
+}
+
+.summary-button {
+    display: inline-block;
+    background-color: #f1cfa8; /* Cor do botão */
+    color: white;
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: px; /* Cantos arredondados */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Efeito de transição ao passar o mouse */
+}
+
+.summary-button:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
+
+body {
+    padding-top: 60px; /* Adiciona um padding no topo do body para o conteúdo não ficar por baixo do painel */
+}
