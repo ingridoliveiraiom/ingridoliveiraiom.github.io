@@ -407,9 +407,8 @@ header p {
     box-shadow: 0 2px 5px #664e34; /* Sombra sutil */
     border-radius: 5px;
     z-index: 1000; /* Garante que o painel fique acima de outros elementos */
-}
 
-.summary-button {
+    .summary-button {
     display: inline-block;
     background-color: #f1cfa8; /* Cor do botão */
     color: white;
@@ -426,3 +425,6 @@ header p {
 body {
     padding-top: 60px; /* Adiciona um padding no topo do body para o conteúdo não ficar por baixo do painel */
 }
+
+}
+
