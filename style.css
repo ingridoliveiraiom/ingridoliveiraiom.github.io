@@ -277,7 +277,6 @@ header p {
     margin-top: 0.5rem;
 }
 
-@media (max-width: 600px) {
     body {
         padding: 1rem 0.5rem;
         font-size: 1rem;
@@ -329,11 +328,10 @@ header p {
         padding-left: 0.3rem;
     }
 
-    .poesia,
-    .letra-samba {
+    .poesia {
         font-size: 1rem;
         padding: 0.5rem 1rem;
-        column-count: 1;
+        column-count: 2;
         column-gap: 0;
     }
 
@@ -390,7 +388,7 @@ header p {
         font-size: 0.95rem;
         margin-top: 0.3rem;
     }
-}
+
 
 figcaption {
     text-align: center;
@@ -434,6 +432,6 @@ figcaption {
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 30px;
     /* Adiciona um padding no topo do body para o conteúdo não ficar por baixo do painel */
 }
