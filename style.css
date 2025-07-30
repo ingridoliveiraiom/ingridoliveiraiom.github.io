@@ -201,6 +201,7 @@ ul {
 
 
 #sumario li {
+    list-style-type: none;
     position: relative;
     padding-left: 2.2em;
     margin-bottom: 0.7em;
@@ -208,9 +209,8 @@ ul {
 
 #sumario li::before {
     content: '';
-    display: inline-block;
     position: absolute;
-    left: 0;
+    left: -1em;
     top: 0.2em;
     width: 1.6em;
     height: 1.6em;
