@@ -2,3 +2,22 @@
   transform: scale(1.02);
   box-shadow: 0 0 20px rgba(1, 87, 128, 0.8);
 }
+
+.observado {
+  animation: zoom-in-zoom-out 0.5s ease-out infinite !important;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    filter: blur(1rem);
+    /* filter: grayscale(100%); */
+  }
+  50% {
+    filter: blur(2px);
+    /* filter: grayscale(50%); */
+  }
+  100% {
+    filter: blur(0);
+    /* filter: grayscale(0); */
+  }
+}

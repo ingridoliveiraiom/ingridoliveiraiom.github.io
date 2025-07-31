@@ -57,3 +57,29 @@ function setContinuosCounter() {
 }
 
 setContinuosCounter();
+
+function animacaoDeEntrada() {
+	const elementoAnimados = document.querySelectorAll('div,h2,h3,ol');
+
+ const observer = new IntersectionObserver((entries) => {
+     entries.forEach(entry => {
+         if (entry.isIntersecting) {
+			let elem = entry.target;
+             elem.classList.add('observado');
+			 // o tempo de timeout deve ser igual ao tempo da animação.
+			 setTimeout(()=>{
+				 elem.classList.remove('observado');
+			 }, 500);
+			 console.log('entrou');
+            //  observer.unobserve(elem); // Para de observar após a animação iniciar
+         }
+     });
+ }, {
+     threshold: 0.5 // Dispara quando pelo menos 10% do elemento está visível
+ });
+ elementoAnimados.forEach(element => {
+	 observer.observe(element);
+ });
+}
+
+animacaoDeEntrada();
