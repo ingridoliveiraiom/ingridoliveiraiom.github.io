@@ -69,7 +69,7 @@ function animacaoDeEntrada() {
 			 // o tempo de timeout deve ser igual ao tempo da animação.
 			 setTimeout(()=>{
 				 elem.classList.remove('observado');
-			 }, 1000);
+			 }, 2000);
 			 console.log('entrou');
             //  observer.unobserve(elem); // Para de observar após a animação iniciar
          }
