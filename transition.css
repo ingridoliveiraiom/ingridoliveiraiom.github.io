@@ -1,0 +1,4 @@
+.aula:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(241, 239, 93, 0.5);
+}

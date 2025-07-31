@@ -70,11 +70,10 @@ h3 {
 }
 
 .aula {
-    /* Estilo de destaque para os títulos das aulas */
-    background-color: #4a3f35; /* Fundo escuro e sóbrio */
-    color: #f5ecd7; /* Texto claro para contraste, mantendo o tom vintage */
+    background-color: #4a3f35;
+    color: #f5ecd7;
     font-family: 'Quicksand', sans-serif;
-    font-size: 2.8rem;
+    font-size: 2.0rem;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
