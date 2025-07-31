@@ -9,15 +9,15 @@
 
 @keyframes zoom-in-zoom-out {
   0% {
-    filter: blur(1rem);
-    /* filter: grayscale(100%); */
+    /* filter: blur(1rem); */
+    filter: grayscale(100%);
   }
   50% {
-    filter: blur(2px);
-    /* filter: grayscale(50%); */
+    /* filter: blur(2px); */
+    filter: grayscale(50%);
   }
   100% {
-    filter: blur(0);
-    /* filter: grayscale(0); */
+    /* filter: blur(0); */
+    filter: grayscale(0);
   }
 }
