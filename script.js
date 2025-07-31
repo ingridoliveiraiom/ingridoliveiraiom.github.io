@@ -59,7 +59,7 @@ function setContinuosCounter() {
 setContinuosCounter();
 
 function animacaoDeEntrada() {
-	const elementoAnimados = document.querySelectorAll('div,h2,h3,ol');
+	const elementoAnimados = document.querySelectorAll('div,h2,h3,ol,li');
 
  const observer = new IntersectionObserver((entries) => {
      entries.forEach(entry => {

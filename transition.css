@@ -4,7 +4,7 @@
 }
 
 .observado {
-  animation: zoom-in-zoom-out 2s ease-out infinite !important;
+  animation: zoom-in-zoom-out 1.5s ease-in-out normal !important;
 }
 
 @keyframes zoom-in-zoom-out {
