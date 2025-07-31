@@ -75,7 +75,7 @@ function animacaoDeEntrada() {
          }
      });
  }, {
-     threshold: 0.5 // Dispara quando pelo menos 10% do elemento está visível
+     threshold: 0.1 // Dispara quando pelo menos 10% do elemento está visível
  });
  elementoAnimados.forEach(element => {
 	 observer.observe(element);
