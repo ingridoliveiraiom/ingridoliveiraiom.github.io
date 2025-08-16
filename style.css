@@ -274,6 +274,15 @@ ul {
     display: block;
 }
 
+.midia-card-landscape{
+    max-width: 255px !important; 
+}
+
+.midia-card-landscape img{
+    max-width: 250px;
+    display: block;
+}
+
 .midia-card .video-info {
     padding: 12px;
     background-color: #fff;
@@ -478,4 +487,9 @@ figcaption {
 body {
     padding-top: 70px;
     /* Adiciona um padding no topo do body para o conteúdo não ficar por baixo do painel */
+}
+#capa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
