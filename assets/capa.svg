@@ -59,15 +59,15 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    showguides="true"
-   inkscape:zoom="2.920701"
-   inkscape:cx="305.74852"
-   inkscape:cy="222.72051"
+   inkscape:zoom="4.4042369"
+   inkscape:cx="481.12761"
+   inkscape:cy="527.33312"
    inkscape:window-width="1870"
    inkscape:window-height="1011"
    inkscape:window-x="50"
    inkscape:window-y="32"
    inkscape:window-maximized="1"
-   inkscape:current-layer="g12">
+   inkscape:current-layer="g3">
                 
             <sodipodi:guide
    position="172.68781,721.24329"
@@ -84,16 +84,7 @@
    fill="#D85D3C"
    id="rect1"
    inkscape:label="rect1"
-   style="fill:url(#linearGradient2)" /><!-- Logo UFRN e História --><text
-   x="427.29333"
-   y="70.944733"
-   id="text1"
-   style="font-weight:bold;font-size:33.9468px;fill:#ffffff;stroke-width:0.942966"
-   transform="scale(1.0604838,0.94296583)">
-                <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.9468px;font-family:C059;-inkscape-font-specification:C059;stroke-width:0.942966"
-   id="tspan35">UFC</tspan>
-            </text><g
+   style="fill:url(#linearGradient2)" /><!-- Logo UFRN e História --><g
    id="g3"
    transform="translate(-44.725203,-40.587598)"><text
      x="505.64182"
@@ -101,13 +92,13 @@
      font-size="14px"
      id="text4"
      style="font-weight:bold;fill:#000000">HISTÓRIA</text><text
-     x="403.31488"
+     x="469.31488"
      y="865.95276"
      font-size="14px"
      id="text3"
-     style="font-weight:bold;fill:#000000">                 <tspan
+     style="font-weight:bold;fill:#000000"><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';fill:#000000"
-   id="tspan36">PROF</tspan>            </text><text
+   id="tspan36">PROF</tspan> </text><text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#d85d3c;fill-opacity:1;stroke-width:1.5"
      x="418.07529"
@@ -115,7 +106,7 @@
      id="text14"><tspan
        sodipodi:role="line"
        id="tspan14"
-       style="stroke-width:1.5"></tspan></text><rect
+       style="stroke-width:1.5" /></text><rect
      style="fill:#000000;fill-opacity:1;stroke-width:1.5"
      id="rect14"
      width="113.90315"
@@ -165,7 +156,7 @@
      id="text13"><tspan
        sodipodi:role="line"
        id="tspan3"
-       style="stroke-width:1.5"></tspan></text></g><!-- Subtítulo -->
+       style="stroke-width:1.5" /></text></g><!-- Subtítulo -->
             <g
    fill="#ffffff"
    font-size="22px"
