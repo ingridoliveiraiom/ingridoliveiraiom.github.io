@@ -410,6 +410,9 @@ header p {
         padding: 3px;
         text-align: center;
         flex: auto;
+        flex-direction: row;
+        justify-content: centerdr7;
+
     }
     
 
