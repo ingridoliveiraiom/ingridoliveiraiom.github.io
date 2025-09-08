@@ -404,6 +404,13 @@ header p {
         margin-bottom: 0.5em;
     }
 
+    .tabela table, th, td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        padding: 3px;
+        text-align: center;
+        flex: auto;
+    }
     
 
 
