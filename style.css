@@ -5,6 +5,10 @@
     --color-block-background: #f5dec3;
 }
 
+* {
+    text-align: justify;
+}
+
 /*
 *  html5resetcss
 */

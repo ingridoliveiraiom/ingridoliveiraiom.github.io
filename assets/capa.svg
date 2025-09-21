@@ -60,14 +60,14 @@
    inkscape:deskcolor="#d1d1d1"
    showguides="true"
    inkscape:zoom="4.4042369"
-   inkscape:cx="481.12761"
-   inkscape:cy="527.33312"
-   inkscape:window-width="1870"
-   inkscape:window-height="1011"
-   inkscape:window-x="50"
+   inkscape:cx="378.83975"
+   inkscape:cy="278.02773"
+   inkscape:window-width="1920"
+   inkscape:window-height="971"
+   inkscape:window-x="0"
    inkscape:window-y="32"
    inkscape:window-maximized="1"
-   inkscape:current-layer="g3">
+   inkscape:current-layer="g12">
                 
             <sodipodi:guide
    position="172.68781,721.24329"
@@ -184,7 +184,9 @@
      x="50"
      y="450"
      font-size="12px"
-     id="text12">ORIENTAÇÃO: Dra. Ana Amélia Rodrigues de Oliveira</text><text
+     id="text12">ORIENTAÇÃO: <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif Bold'"
+   id="tspan1">Dra. Ana Amélia Rodrigues de Oliveira</tspan></text><text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'Noto Looped Lao';-inkscape-font-specification:'Noto Looped Lao';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f9f9f9;fill-opacity:1;stroke-width:1.5"
      x="343.5"
