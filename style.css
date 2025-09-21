@@ -73,6 +73,23 @@ h3 {
     font-weight: 700;
 }
 
+.bloco {
+    background-color: #0c0601;
+    color: #f5ecd7;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding: 1.5rem 1rem;
+    margin: 4rem auto 3rem auto;
+    border-radius: 12px;
+    border-bottom: 5px solid #eac67a; /* Destaque dourado, conectado ao header */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    max-width: 90%;
+}
+
 .aula {
     background-color: #4a3f35;
     color: #f5ecd7;
