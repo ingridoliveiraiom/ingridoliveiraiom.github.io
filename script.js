@@ -18,7 +18,7 @@ function gerarSumario() {
 
 	sumarioContainer.appendChild(listaSumario);
 }
-gerarSumario();
+// gerarSumario();
 
 function setContinuosCounter() {
 	document.addEventListener('DOMContentLoaded', () => {
