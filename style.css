@@ -43,32 +43,12 @@ body {
 } */
 
 
-ol {
-    list-style: none;
+ul {
+    list-style: inside;
     /* Remove a numeração padrão do navegador */
-    padding-left: 0;
+    /* padding-left: 0; */
 }
 
-ol li {
-    counter-increment: item-counter;
-    /* Incrementa o contador CSS */
-    margin-bottom: 5px;
-    padding-left: 25px;
-    /* Espaço para o número */
-    position: relative;
-}
-
-ol li::before {
-    content: counter(item-counter) ".";
-    /* Exibe o contador */
-    left: 0;
-    font-weight: bold;
-    color: #007bff;
-}
-
-ol ol li {
-    list-style-type: lower-alpha;
-}
 
 h1,
 h2,
@@ -232,9 +212,6 @@ h3 {
     padding-left: 1rem;
 }
 
-ul {
-    list-style-type: square;
-}
 
 .poesia {
     font-family: 'Nunito', sans-serif;
