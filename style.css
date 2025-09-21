@@ -43,11 +43,7 @@ body {
 } */
 
 
-ul {
-    list-style: inside;
-    /* Remove a numeração padrão do navegador */
-    /* padding-left: 0; */
-}
+
 
 
 h1,
