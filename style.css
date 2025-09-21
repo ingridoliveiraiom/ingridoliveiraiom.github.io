@@ -5,7 +5,7 @@
     --color-block-background: #f5dec3;
 }
 
-* {
+p, li {
     text-align: justify;
 }
 
@@ -501,3 +501,4 @@ body {
     flex-direction: row;
     justify-content: center;
 }
+
